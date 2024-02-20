@@ -4,21 +4,19 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
-
-    Transform tr;
+    
     Rigidbody2D rb2d;
     public float SpeedX;
     public float SpeedY;
 
     void Start()
     {
-        tr = GetComponent<Transform>();
         rb2d = GetComponent<Rigidbody2D>();
-        SpeedX = 10f;
-        SpeedY = 12000f;
+        SpeedX = 2500f;
+        SpeedY = 188000f;
     }
 
-    void Update()
+    void FixedUpdate()
     {
         Movement();
     }
@@ -32,12 +30,12 @@ public class PlayerMovement : MonoBehaviour
 
         if (Input.GetKey(KeyCode.A))
         {
-            tr.Translate(-SpeedX * Time.deltaTime, 0, 0);
+            rb2d.AddForce(new Vector2(-SpeedX * Time.fixedDeltaTime, 0));
         }
 
         if (Input.GetKey(KeyCode.D))
         {
-            tr.Translate(SpeedX * Time.deltaTime, 0, 0);
+            rb2d.AddForce(new Vector2(SpeedX * Time.fixedDeltaTime, 0));
         }
     }
 
