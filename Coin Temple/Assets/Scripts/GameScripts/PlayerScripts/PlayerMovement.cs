@@ -13,7 +13,7 @@ public class PlayerMovement : MonoBehaviour
     {
         rb2d = GetComponent<Rigidbody2D>();
         SpeedX = 2500f;
-        SpeedY = 188000f;
+        SpeedY = 18000f;
     }
 
     void FixedUpdate()
@@ -36,6 +36,14 @@ public class PlayerMovement : MonoBehaviour
         if (Input.GetKey(KeyCode.D))
         {
             rb2d.AddForce(new Vector2(SpeedX * Time.fixedDeltaTime, 0));
+        }
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.transform.CompareTag("groundCollision"))
+        {
+            
         }
     }
 
