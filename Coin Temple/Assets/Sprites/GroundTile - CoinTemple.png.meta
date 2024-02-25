@@ -41,6 +41,24 @@ TextureImporter:
   - first:
       213: -3937119107591427714
     second: GroundTile - CoinTemple_12
+  - first:
+      213: -5993990927810871923
+    second: GroundTile - CoinTemple_13
+  - first:
+      213: 7221674902595412635
+    second: GroundTile - CoinTemple_14
+  - first:
+      213: 4548068049046432593
+    second: GroundTile - CoinTemple_15
+  - first:
+      213: -7363338096687071876
+    second: GroundTile - CoinTemple_16
+  - first:
+      213: 3732674811828613851
+    second: GroundTile - CoinTemple_17
+  - first:
+      213: 3513002588714840911
+    second: GroundTile - CoinTemple_18
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -84,7 +102,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 34
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -130,7 +148,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 102
+        y: 204
         width: 34
         height: 34
       alignment: 0
@@ -151,7 +169,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 34
-        y: 102
+        y: 204
         width: 34
         height: 34
       alignment: 0
@@ -172,7 +190,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 68
-        y: 102
+        y: 204
         width: 34
         height: 34
       alignment: 0
@@ -192,8 +210,8 @@ TextureImporter:
       name: GroundTile - CoinTemple_3
       rect:
         serializedVersion: 2
-        x: 102
-        y: 102
+        x: 0
+        y: 170
         width: 34
         height: 34
       alignment: 0
@@ -213,8 +231,8 @@ TextureImporter:
       name: GroundTile - CoinTemple_4
       rect:
         serializedVersion: 2
-        x: 0
-        y: 68
+        x: 34
+        y: 170
         width: 34
         height: 34
       alignment: 0
@@ -234,8 +252,8 @@ TextureImporter:
       name: GroundTile - CoinTemple_5
       rect:
         serializedVersion: 2
-        x: 34
-        y: 68
+        x: 68
+        y: 170
         width: 34
         height: 34
       alignment: 0
@@ -255,8 +273,8 @@ TextureImporter:
       name: GroundTile - CoinTemple_6
       rect:
         serializedVersion: 2
-        x: 68
-        y: 68
+        x: 0
+        y: 136
         width: 34
         height: 34
       alignment: 0
@@ -276,8 +294,8 @@ TextureImporter:
       name: GroundTile - CoinTemple_7
       rect:
         serializedVersion: 2
-        x: 102
-        y: 68
+        x: 34
+        y: 136
         width: 34
         height: 34
       alignment: 0
@@ -297,8 +315,8 @@ TextureImporter:
       name: GroundTile - CoinTemple_8
       rect:
         serializedVersion: 2
-        x: 0
-        y: 34
+        x: 68
+        y: 136
         width: 34
         height: 34
       alignment: 0
@@ -318,8 +336,8 @@ TextureImporter:
       name: GroundTile - CoinTemple_9
       rect:
         serializedVersion: 2
-        x: 34
-        y: 34
+        x: 0
+        y: 102
         width: 34
         height: 34
       alignment: 0
@@ -339,8 +357,8 @@ TextureImporter:
       name: GroundTile - CoinTemple_10
       rect:
         serializedVersion: 2
-        x: 68
-        y: 34
+        x: 34
+        y: 102
         width: 34
         height: 34
       alignment: 0
@@ -360,8 +378,8 @@ TextureImporter:
       name: GroundTile - CoinTemple_11
       rect:
         serializedVersion: 2
-        x: 102
-        y: 34
+        x: 68
+        y: 102
         width: 34
         height: 34
       alignment: 0
@@ -382,7 +400,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
+        y: 68
         width: 34
         height: 34
       alignment: 0
@@ -394,6 +412,132 @@ TextureImporter:
       bones: []
       spriteID: e792c99080b8c59c0800000000000000
       internalID: -3937119107591427714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GroundTile - CoinTemple_13
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 68
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8d3be8320111dca0800000000000000
+      internalID: -5993990927810871923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GroundTile - CoinTemple_14
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 68
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b92ad84df0b883460800000000000000
+      internalID: 7221674902595412635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GroundTile - CoinTemple_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 34
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15b67bd3bcbfd1f30800000000000000
+      internalID: 4548068049046432593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GroundTile - CoinTemple_16
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 34
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7dbdd1830b20d990800000000000000
+      internalID: -7363338096687071876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GroundTile - CoinTemple_17
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 34
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd2b71df6ff1dc330800000000000000
+      internalID: 3732674811828613851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GroundTile - CoinTemple_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f433063ed31b0c030800000000000000
+      internalID: 3513002588714840911
       vertices: []
       indices: 
       edges: []
