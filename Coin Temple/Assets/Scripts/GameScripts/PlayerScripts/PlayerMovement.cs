@@ -12,11 +12,11 @@ public class PlayerMovement : MonoBehaviour
     void Start()
     {
         rb2d = GetComponent<Rigidbody2D>();
-        SpeedX = 2500f;
-        SpeedY = 18000f;
+        SpeedX = 6f;
+        SpeedY = 7.5f;
     }
 
-    void FixedUpdate()
+    void Update()
     {
         Movement();
     }
@@ -25,25 +25,17 @@ public class PlayerMovement : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.W))
         {
-            rb2d.AddForce(new Vector2(0, SpeedY * Time.fixedDeltaTime));
+            rb2d.velocity = new Vector2(rb2d.velocity.x, SpeedY);
         }
 
         if (Input.GetKey(KeyCode.A))
         {
-            rb2d.AddForce(new Vector2(-SpeedX * Time.fixedDeltaTime, 0));
+            rb2d.velocity = new Vector2(-SpeedX, rb2d.velocity.y);
         }
 
         if (Input.GetKey(KeyCode.D))
         {
-            rb2d.AddForce(new Vector2(SpeedX * Time.fixedDeltaTime, 0));
-        }
-    }
-
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-        if (collision.transform.CompareTag("groundCollision"))
-        {
-            
+            rb2d.velocity = new Vector2(SpeedX, rb2d.velocity.y);
         }
     }
 

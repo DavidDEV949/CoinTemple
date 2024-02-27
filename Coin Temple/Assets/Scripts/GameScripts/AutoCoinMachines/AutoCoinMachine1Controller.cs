@@ -4,15 +4,23 @@ using UnityEngine;
 
 public class AutoCoinMachine1Controller : MonoBehaviour
 {
-    // Start is called before the first frame update
+
+    private int CoinsGenerated = 0;
+    public float incrementInterval = 1.0f;
+
     void Start()
     {
-        
+        InvokeRepeating("IncreaseValue", incrementInterval, incrementInterval);
     }
 
-    // Update is called once per frame
+    void IncreaseValue()
+    {
+        CoinsGenerated++;
+    }
+
     void Update()
     {
-        
+        Debug.Log("Current value: " + CoinsGenerated);
     }
+
 }
