@@ -8,21 +8,20 @@ public class PlayScript : MonoBehaviour
 
     public GameObject TransitionUp;
     public GameObject TransitionDown;
+    Animator animator;
+
+    void Start()
+    {
+        TransitionUp.GetComponent<Animator>().GetBool("onSceneChanging");
+        TransitionDown.GetComponent<Animator>().GetBool("onSceneChanging");
+        TransitionUp.GetComponent<Animator>().SetBool("onSceneChanging", false);
+        TransitionDown.GetComponent<Animator>().SetBool("onSceneChanging", false);
+    }
 
     public void Play()
     {
-
-        //TransitionUp.transform.Translate(0, -350 * Time.deltaTime, 0);
-        //TransitionDown.transform.Translate(0, 350 * Time.deltaTime, 0);
-
-        TransitionUp.GetComponent<Rigidbody2D>().gravityScale = 0;
-        TransitionDown.GetComponent<Rigidbody2D>().gravityScale = 0;
-
-        TransitionUp.GetComponent<Rigidbody2D>().velocity = new Vector2(0, -1);
-        TransitionDown.GetComponent<Rigidbody2D>().velocity = new Vector2(0, 1);
-
-        //SceneManager.LoadScene("GameScene");
-
+        TransitionUp.GetComponent<Animator>().SetBool("onSceneChanging", true);
+        TransitionDown.GetComponent<Animator>().SetBool("onSceneChanging", true);
     }
 
 
